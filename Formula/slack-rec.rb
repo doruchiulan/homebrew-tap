@@ -3,7 +3,6 @@ class SlackRec < Formula
   homepage "https://github.com/doruchiulan/slack-recorder"
   url "https://github.com/doruchiulan/slack-recorder/releases/download/v0.1.0/slack-rec-0.1.0-universal.tar.gz"
   sha256 "531cc0c09c64b198c09ff37fd1b68531c567ecdf93a80e7059ed4d0ac6a096fa"
-  version "0.1.0"
   license "MIT"
 
   # SCStreamConfiguration.captureMicrophone is a Sequoia API with no fallback.
