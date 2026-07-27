@@ -1,8 +1,8 @@
 class SlackRec < Formula
   desc "Record a Slack call: window video, system audio and microphone"
   homepage "https://github.com/doruchiulan/slack-recorder"
-  url "https://github.com/doruchiulan/slack-recorder/releases/download/v0.2.2/slack-rec-0.2.2-universal.tar.gz"
-  sha256 "61f0960dc96398e4cbb1e9d5f36886c9074220b4fb9ef9e6552cc3131ce57696"
+  url "https://github.com/doruchiulan/slack-recorder/releases/download/v0.3.0/slack-rec-0.3.0-universal.tar.gz"
+  sha256 "1ad8d82278e6eccd8f79c84428f6c2e3bc94b26f8fec21b9c8bc7b95d9d4528e"
   license "MIT"
 
   # SCStreamConfiguration.captureMicrophone is a Sequoia API with no fallback.
