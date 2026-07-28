@@ -8,4 +8,5 @@ brew install doruchiulan/tap/<formula>
 
 | Formula | |
 |---|---|
-| [`slack-rec`](https://github.com/doruchiulan/slack-recorder) | Records a Slack call on macOS as separate video, system audio and microphone tracks. |
+| [`anyrec`](https://github.com/doruchiulan/anyrec) | Records any window or display on macOS as separate video, system audio and microphone tracks. |
+| [`slack-rec`](https://github.com/doruchiulan/slack-recorder) | The old name for `anyrec`. Frozen at 0.3.1 so existing installs keep working; install `anyrec` instead. |
