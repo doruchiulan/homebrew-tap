@@ -1,6 +1,6 @@
 cask "anyrec-app" do
-  version "0.2.0"
-  sha256 "d2a9a9bc9fda0490dae38f1c2c0b22e969bb0f4837a5d3a9760f93e234e46b25"
+  version "0.3.0"
+  sha256 "b49fd8d5fd6705c4eafe438f046ddeba6fa78513186686c8aaea2903c7476184"
 
   url "https://github.com/doruchiulan/anyrec/releases/download/v#{version}/AnyRec-#{version}.zip"
   name "AnyRec"
@@ -9,7 +9,7 @@ cask "anyrec-app" do
 
   # SCContentFilter only reports what is in it from 15.2, which is how the picker
   # reads a selection back.
-  depends_on macos: :sequoia
+  depends_on macos: ">= :sequoia"
 
   app "AnyRec.app"
 
@@ -26,7 +26,8 @@ cask "anyrec-app" do
 
       brew install ffmpeg
 
-    Setting whisper up, or pasting an OpenAI key, is a terminal job:
+    Settings > Transcription installs whisper and its models, or takes an OpenAI
+    key. The terminal tool is a separate install, not a prerequisite:
 
       brew install doruchiulan/tap/anyrec
   EOS
