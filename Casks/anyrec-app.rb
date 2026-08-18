@@ -1,4 +1,4 @@
-cask "anyrec" do
+cask "anyrec-app" do
   version "0.2.0"
   sha256 "d2a9a9bc9fda0490dae38f1c2c0b22e969bb0f4837a5d3a9760f93e234e46b25"
 

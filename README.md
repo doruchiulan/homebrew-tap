@@ -13,4 +13,4 @@ brew install --cask doruchiulan/tap/<cask>
 
 | Cask | |
 |---|---|
-| [`anyrec`](https://github.com/doruchiulan/anyrec) | The same recorder as a menu bar app. |
+| [`anyrec-app`](https://github.com/doruchiulan/anyrec) | The same recorder as a menu bar app. |
