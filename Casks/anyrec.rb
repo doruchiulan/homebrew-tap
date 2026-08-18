@@ -1,6 +1,6 @@
 cask "anyrec" do
   version "0.2.0"
-  sha256 "46fe5389858eda4f6716f54e9bab28fbbb35e0ac2ab742580fae3b2175225e57"
+  sha256 "d2a9a9bc9fda0490dae38f1c2c0b22e969bb0f4837a5d3a9760f93e234e46b25"
 
   url "https://github.com/doruchiulan/anyrec/releases/download/v#{version}/AnyRec-#{version}.zip"
   name "AnyRec"
