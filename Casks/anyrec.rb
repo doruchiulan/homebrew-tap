@@ -9,7 +9,7 @@ cask "anyrec" do
 
   # SCContentFilter only reports what is in it from 15.2, which is how the picker
   # reads a selection back.
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "AnyRec.app"
 
