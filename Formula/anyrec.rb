@@ -1,8 +1,8 @@
 class Anyrec < Formula
   desc "Record calls with video, system audio, microphone and transcripts"
   homepage "https://github.com/doruchiulan/anyrec"
-  url "https://github.com/doruchiulan/anyrec/releases/download/v0.8.5/anyrec-0.8.5-universal.tar.gz"
-  sha256 "80f5ecee7045eff417c0706cc8c8327d39fee7074e070c717fc23b0eb3478b41"
+  url "https://github.com/doruchiulan/anyrec/releases/download/v0.9.0/anyrec-0.9.0-universal.tar.gz"
+  sha256 "6ecb207fe0c7e26fca2aa1b2fb071cb7db6dac69a090333aacb0ce262b3d14a5"
   license "MIT"
 
   # SCStreamConfiguration.captureMicrophone is a Sequoia API with no fallback.
@@ -36,7 +36,7 @@ class Anyrec < Formula
 
         anyrec doctor
 
-      Recordings land in ~/Desktop/AnyRec Recordings. ffmpeg is what merges the
+      Recordings land in ~/Library/Application Support/anyrec/Recordings. ffmpeg is what merges the
       three tracks into a playable call.mp4; run anyrec with no arguments and
       ⏎ on Transcript fetches it along with Parakeet, the on-device engine, or:
 
